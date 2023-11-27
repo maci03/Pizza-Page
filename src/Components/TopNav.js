@@ -12,7 +12,7 @@ const TopNav = () => {
             <span>Eats</span>
         </h1>
         <div className="hidden lg:flex item-center bg-gray-200 rounded-full p-1 text-[14px]">
-            <p>Free</p>
+            <p className="bg-orange-700 text-white rounded-full p-2 text-bold">Free</p>
             <p>Delivery</p>
         </div>
       </div>
