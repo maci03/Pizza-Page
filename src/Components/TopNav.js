@@ -7,6 +7,10 @@ const TopNav = () => {
         <div className="cursor-pointer">
             <AiOutlineMenu size={25}/>
         </div>
+        <h1>
+            Yum
+            <span>Eats</span>
+        </h1>
       </div>
     </div>
   );
