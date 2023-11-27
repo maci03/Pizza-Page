@@ -4,7 +4,7 @@ import {BsFillCartFill, BsPerson} from 'react-icons/bs'
 
 const TopNav = () => {
 const [sideNav, setSideNav] = useState(false);
-
+console.log(sideNav)
   return (
     <div className="max-w-[1520px] mx-auto flex justify-between items-center p-4">
     <div className="flex items-center">
@@ -33,6 +33,9 @@ const [sideNav, setSideNav] = useState(false);
     <button className="bg-orange-700 text-white hidden md:flex items-center py-2 rounded-full">
       <BsFillCartFill size={20} /> Cart
     </button>
+    <div className="bg-black/60 fixed w-full h-screen z-10 top-0 left-0">
+        
+    </div>
     </div>
   );
 };
