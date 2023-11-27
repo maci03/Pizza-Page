@@ -13,7 +13,10 @@ const TopNav = () => {
         </h1>
         <div className="hidden lg:flex item-center bg-gray-200 rounded-full p-1 text-[14px]">
             <p className="bg-orange-700 text-white rounded-full p-2 text-bold">Free</p>
-            <p>Delivery</p>
+            <p className="p-2 text-bold">Delivery</p>
+        </div>
+        <div className="bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
+            <AiOutlineSearch />
         </div>
       </div>
     </div>
