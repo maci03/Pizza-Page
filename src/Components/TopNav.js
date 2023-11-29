@@ -8,7 +8,7 @@ import {
 import { BsFillCartFill, BsPerson } from "react-icons/bs";
 import { TbTruckReturn } from "react-icons/tb";
 import { FaGoogleWallet } from "react-icons/fa";
-import { MdHelp, MdOutLineFavorite } from "react-icons/md";
+import { MdHelp, MdOutlineFavorite } from "react-icons/md";
 
 const TopNav = () => {
   const [sideNav, setSideNav] = useState(false);
@@ -80,7 +80,7 @@ const TopNav = () => {
               Delivery
             </li>
             <li className="text-xl py-4 flex">
-              <MdOutLineFavorite
+              <MdOutlineFavorite
                 size={25}
                 className="mr-4 text-white bg-black rounded-full"
               />
@@ -91,7 +91,7 @@ const TopNav = () => {
                 size={25}
                 className="mr-4 text-white bg-black rounded-full"
               />
-              Help
+              My Wallet
               </li>
             <li className="text-xl py-4 flex">
               <MdHelp
