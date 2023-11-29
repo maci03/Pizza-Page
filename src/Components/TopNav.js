@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import {
-  AiOutlineMenu,
-  AiOutlineSearch,
-  AiOutlineClose,
-} from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
 
 import { BsFillCartFill, BsPerson } from "react-icons/bs";
 import { TbTruckReturn } from "react-icons/tb";
@@ -43,7 +39,10 @@ const TopNav = () => {
       </button>
 
       {sideNav ? (
-        <div className="bg-black/60 fixed w-full h-screen z-10 top-0 left-0"></div>
+        <div
+          className="bg-black/60 fixed w-full h-screen z-10 top-0 left-0"
+          onClick={() => setSideNav(!sideNav)}
+        ></div>
       ) : (
         ""
       )}
@@ -92,7 +91,7 @@ const TopNav = () => {
                 className="mr-4 text-white bg-black rounded-full"
               />
               My Wallet
-              </li>
+            </li>
             <li className="text-xl py-4 flex">
               <MdHelp
                 size={25}
