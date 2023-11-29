@@ -1,6 +1,13 @@
 import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag} from "react-icons/ai";
+import { 
+  AiOutlineMenu,
+  AiOutlineSearch, 
+  AiOutlineClose, 
+  AiFillTag} from "react-icons/ai";
+  
 import {BsFillCartFill, BsPerson} from 'react-icons/bs'
+
+
 
 const TopNav = () => {
 const [sideNav, setSideNav] = useState(false);
