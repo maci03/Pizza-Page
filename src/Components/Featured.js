@@ -1,6 +1,9 @@
 import { useState } from "react";
 import React from "react";
 
+import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
+
+
 const Featured = () => {
   const sliders = [
     {
@@ -14,7 +17,7 @@ const Featured = () => {
     },
   ];
 
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(2);
   return (
     <div className="max-2-[1520px] h-[500px] w-full py-4 px-4 relative">
       <div className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
