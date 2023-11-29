@@ -59,6 +59,11 @@ const TopNav = () => {
           className="absolute right-4 top-4 cursor-pointer"
         />
         <h2 className="text-2xl p-4">Yum <span className="text-orange-700 font-bold">Eats</span></h2>
+        <nav>
+          <ul className="flex flex-col p-4 text-gray-900">
+            
+          </ul>
+        </nav>
       </div>
     </div>
   );
