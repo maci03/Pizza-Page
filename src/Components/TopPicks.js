@@ -26,6 +26,7 @@ const TopPicks = () => {
                       Add To Cart
                     </button>
                   </div>
+                  {/* ფოტოების API */}
                   <img
                     className="h-[200px] w-full object-cover rounded-3xl cursor-pointer hover:scale-105  ease-out duration-300"
                     src={item.img}
