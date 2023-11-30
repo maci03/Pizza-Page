@@ -17,8 +17,8 @@ const Featured = () => {
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   const moveToNextSlide = (slideIndex) => {
-    setCurrentIndex(slideIndex)
-  }
+    setCurrentIndex(slideIndex);
+  };
   // მარცხენა სლაიდერი
   const prevSlider = () => {
     const isFirstSlide = currentIndex === 0;
