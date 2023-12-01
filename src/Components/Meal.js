@@ -8,7 +8,7 @@ const Meal = () => {
         Our Meal
       </h1>
       <div className="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4">
-        {mealData.map()}
+        {mealData.map(item)}
       </div>
     </div>
   );
