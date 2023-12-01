@@ -17,7 +17,12 @@ const Meal = () => {
       </h1>
       <div className="flex flex-col lg:float-row justify-center">
         <div className="flex justify-center md:justify-center">
-          <button></button>
+          <button
+            onClick={() => setFoods(mealData)}
+            className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700"
+          >
+            All
+          </button>
         </div>
       </div>
     </div>
