@@ -30,9 +30,16 @@ const Meal = () => {
           >
             Pizza
           </button>
-          <button onClick={() => fillterCat("chicken")}
+          <button
+            onClick={() => fillterCat("chicken")}
             className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700"
-          ></button>
+          >
+            Chicken
+          </button>
+          <button
+            onClick={() => fillterCat("salad")}
+            className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700"
+          >Salad</button>
         </div>
       </div>
     </div>
