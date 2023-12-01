@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { mealData } from "../data/data";
+import { ArrowSmRightIcon } from "@heroicons/react/outline";
 
 const Meal = () => {
   const [foods, setFoods] = useState(mealData);
@@ -29,6 +30,9 @@ const Meal = () => {
           >
             Pizza
           </button>
+          <button onClick={() => fillterCat("chicken")}
+            className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700"
+          ></button>
         </div>
       </div>
     </div>
