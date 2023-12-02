@@ -16,8 +16,8 @@ const TopNav = () => {
           <AiOutlineMenu size={25} />
         </div>
         <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
-          Yum
-          <span className="font-bold">Eats</span>
+          Burger
+          <span className="font-bold">Lord</span>
         </h1>
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
           <p className="bg-orange-700 text-white rounded-full p-2 text-bold">
@@ -60,7 +60,7 @@ const TopNav = () => {
           className="absolute right-4 top-4 cursor-pointer"
         />
         <h2 className="text-2xl p-4">
-          Yum <span className="text-orange-700 font-bold">Eats</span>
+          Burger <span className="text-orange-700 font-bold">Lord</span>
         </h2>
         <nav>
           <ul className="flex flex-col p-4 text-gray-900">
