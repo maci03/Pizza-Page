@@ -9,8 +9,11 @@ const Categories = () => {
                 Trending Categories
             </h1>
             <div className="grid grid-cols-2 md:grid-cols-6 gap-5 py-5 px-2">
-                {
-                    
+                {categories.map((item)=> {
+                    return <div 
+                    key = {item.id}
+                    className=""
+                })
                 }
             </div>
         </div>
