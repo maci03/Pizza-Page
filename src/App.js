@@ -4,7 +4,8 @@ import Delivery from "./Components/Delivery";
 import TopPicks from "./Components/TopPicks";
 import Meal from "./Components/Meal";
 import Categories from "./Components/Categories";
-import NewsLetter from "./Components/NewsLetter"
+import NewsLetter from "./Components/NewsLetter";
+
 function App() {
   return (
     <div className="App">

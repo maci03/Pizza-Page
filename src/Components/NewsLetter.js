@@ -31,3 +31,4 @@ const NewsLetter = () => {
     </div>
   );
 };
+export default NewsLetter;
