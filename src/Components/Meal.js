@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ArrowSmRightIcon } from "@heroicons/react/outline";
+
 import { mealData } from "../data/data";
 
 const Meal = () => {
