@@ -26,6 +26,7 @@ const NewsLetter = () => {
             </span>
           </p>
         </div>
+        <hr className="my-8 bg-gray-700 border-1 gark:bg-gray-700" />
       </div>
     </div>
   );
