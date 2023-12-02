@@ -40,28 +40,28 @@ const Footer = () => {
           <div>
             <h6 className="font-medium text-[#9b9b9b]">Location</h6>
             <ul>
-              <li className="py-2 text-sm">Tbilisi</li>
-              <li className="py-2 text-sm">Zugdidi</li>
-              <li className="py-2 text-sm">Telavi</li>
-              <li className="py-2 text-sm">Soxumi</li>
+              <li className="py-2 text-sm">Gori</li>
+              <li className="py-2 text-sm">Rustavi</li>
+              <li className="py-2 text-sm">Gali</li>
+              <li className="py-2 text-sm">Terjola</li>
             </ul>
           </div>
           <div>
             <h6 className="font-medium text-[#9b9b9b]">Location</h6>
             <ul>
-              <li className="py-2 text-sm">Tbilisi</li>
-              <li className="py-2 text-sm">Zugdidi</li>
-              <li className="py-2 text-sm">Telavi</li>
-              <li className="py-2 text-sm">Soxumi</li>
+              <li className="py-2 text-sm">Oni</li>
+              <li className="py-2 text-sm">Vani</li>
+              <li className="py-2 text-sm">Wyaltubo</li>
+              <li className="py-2 text-sm">Otobaia</li>
             </ul>
           </div>
           <div>
             <h6 className="font-medium text-[#9b9b9b]">Location</h6>
             <ul>
-              <li className="py-2 text-sm">Tbilisi</li>
-              <li className="py-2 text-sm">Zugdidi</li>
-              <li className="py-2 text-sm">Telavi</li>
-              <li className="py-2 text-sm">Soxumi</li>
+              <li className="py-2 text-sm">Batumi</li>
+              <li className="py-2 text-sm">Khoni</li>
+              <li className="py-2 text-sm">Borjomi</li>
+              <li className="py-2 text-sm">Mestia</li>
             </ul>
           </div>
         </div>
