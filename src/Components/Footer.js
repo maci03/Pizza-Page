@@ -14,8 +14,9 @@ const Footer = () => {
         <div>
           <h1 className="w-full text-3xl font-bold text-orange-500">YumEats</h1>
           <p>
-            The Leopard 2A7 features the latest generation of passive armour and
-            belly armour providing protection against mines and IEDs.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit
+            ullam iste repellat consequatur libero reiciendis, blanditiis
+            accusantium.
           </p>
           <div className="flex justify-between md:w-[75%] my-6">
             <FaFacebookSquare className="cursor-pointer" size={30} />
@@ -25,9 +26,48 @@ const Footer = () => {
             <FaDribbbleSquare className="cursor-pointer" size={30} />
           </div>
         </div>
+
+        <div className="lg:col-span-2 flex justify-between mt-6">
+          <div>
+            <h6 className="font-medium text-[#9b9b9b]">Location</h6>
+            <ul>
+              <li className="py-2 text-sm">Tbilisi</li>
+              <li className="py-2 text-sm">Zugdidi</li>
+              <li className="py-2 text-sm">Telavi</li>
+              <li className="py-2 text-sm">Soxumi</li>
+            </ul>
+          </div>
+          <div>
+            <h6 className="font-medium text-[#9b9b9b]">Location</h6>
+            <ul>
+              <li className="py-2 text-sm">Tbilisi</li>
+              <li className="py-2 text-sm">Zugdidi</li>
+              <li className="py-2 text-sm">Telavi</li>
+              <li className="py-2 text-sm">Soxumi</li>
+            </ul>
+          </div>
+          <div>
+            <h6 className="font-medium text-[#9b9b9b]">Location</h6>
+            <ul>
+              <li className="py-2 text-sm">Tbilisi</li>
+              <li className="py-2 text-sm">Zugdidi</li>
+              <li className="py-2 text-sm">Telavi</li>
+              <li className="py-2 text-sm">Soxumi</li>
+            </ul>
+          </div>
+          <div>
+            <h6 className="font-medium text-[#9b9b9b]">Location</h6>
+            <ul>
+              <li className="py-2 text-sm">Tbilisi</li>
+              <li className="py-2 text-sm">Zugdidi</li>
+              <li className="py-2 text-sm">Telavi</li>
+              <li className="py-2 text-sm">Soxumi</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   );
 };
+
 export default Footer;
