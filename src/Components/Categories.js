@@ -12,7 +12,10 @@ const Categories = () => {
                 {categories.map((item)=> {
                     return <div 
                     key = {item.id}
-                    className=""
+                    className="p-4 flex justify-center items-center hover:scale duration-300">
+                    <img 
+                    className="object-cover rounded-xl w-40 h-10 cursor-pointer shadow-xl"
+                    
                 })
                 }
             </div>
