@@ -20,7 +20,10 @@ const NewsLetter = () => {
             </button>
           </div>
           <p>
-          we are concerned about the security of your data. Read <br></br>
+            we are concerned about the security of your data. Read <br></br>
+            <span className="text-[#00df9a] cursor-pointer">
+              Privacy Policy
+            </span>
           </p>
         </div>
       </div>
