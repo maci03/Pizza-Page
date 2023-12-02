@@ -17,6 +17,14 @@ const Footer = () => {
             The Leopard 2A7 features the latest generation of passive armour and
             belly armour providing protection against mines and IEDs.
           </p>
+          <div className="flex justify-between md:w-[75%] my-6">
+            <FaFacebookSquare className="cursor-pointer" size={30} />
+            <FaInstagram className="cursor-pointer" size={30} />
+            <FaTwitterSquare className="cursor-pointer" size={30} />
+            <FaGithubSquare className="cursor-pointer" size={30} />
+            <FaDribbbleSquare className="cursor-pointer" size={30} />
+          </div>
+        </div>
         </div>
       </div>
     </div>
